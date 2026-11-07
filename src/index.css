@@ -7,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(90deg, #e03ce0 0%, #8932db 100%);
+  background: linear-gradient(90deg, #83ebe2 0%, #49f0b8 100%);
 }
 
 html {
@@ -23,7 +23,7 @@ html {
   flex-direction: column;
   justify-content: start;
   min-height: 600px;
-  background: #e750a3;
+  background: #d6cbd1;
   text-align: center;
   margin: 128px auto;
   padding-bottom: 32px;
@@ -33,13 +33,13 @@ html {
 
 h1 {
   margin: 32px auto;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 900;
 }
 
 .complete {
   text-decoration: line-through;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .to-do-count {
@@ -58,7 +58,7 @@ h1 {
   outline: none;
   width: 500px;
   background: transparent;
-  background-color: #8932db;
+  background-color: #a5c8d8;
   opacity: 0.8;
 }
 
@@ -74,7 +74,7 @@ h1 {
   border: none;
   cursor: pointer;
   text-transform: capitalize;
-  background: linear-gradient(90deg, #8932db 30%, rgba(75, 150, 300, 1.5) 90%);
+  background: linear-gradient(90deg, #e9e7eb 30%, rgba(75, 150, 300, 1.5) 90%);
 }
 
 .add-icon {
@@ -117,15 +117,15 @@ h1 {
 }
 
 .to-do-row:nth-child(4n + 1) {
-  background: linear-gradient(90deg, #401891 0%, #ac85c4 100%);
+  background: linear-gradient(90deg, #afb8b5 0%, #97d1db 100%);
 }
 
 .to-do-row:nth-child(4n + 2) {
-  background: linear-gradient(90deg, #d158cb 0%, #f13298 100%);
+  background: linear-gradient(90deg, #cbced8 0%, #3b4b69 100%);
 }
 
 .to-do-row:nth-child(4n + 3) {
-  background: linear-gradient(90deg, #2371a8 0%, #7c9fcc 100%);
+  background: linear-gradient(90deg, #d1d5d8 0%, #7c9fcc 100%);
 }
 
 /* For Mobile Only */
