@@ -10,7 +10,7 @@ function ToDoForm(props) {
   useEffect(() => {
     inputRef.current.focus();
   });
-
+3
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -36,7 +36,7 @@ function ToDoForm(props) {
         type="text"
         name="text"
         value={input}
-        placeholder="Enter your To Do task here..."
+        placeholder="해야하는 과제를 여기에 입력하세요..."
         className="to-do-input"
         onChange={(e) => setInput(e.target.value)}
         ref={inputRef}

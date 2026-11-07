@@ -5,11 +5,11 @@ function ToDoCount({ todos }) {
     <div className="to-do-count">
       There is
       {!todos.length
-        ? " no To Do tasks that you need to complete. "
+        ? " 등록과제가 없습니다."
         : todos.length === 1
-        ? " 1 To Do task that you need to complete. "
+        ? " 현재 등록된 과제:1. "
         : todos.length > 1
-        ? ` ${todos.length} To Do tasks that you need to complete.`
+        ? ` 현재 등록된 과제:${todos.length}.`
         : null}
     </div>
   );
